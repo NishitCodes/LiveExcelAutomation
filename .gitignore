@@ -1,5 +1,23 @@
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-*.xlsx
-.DS_Store
+*.egg-info/
+dist/
+build/
+
+# Private workbook context & notes
+context/
+*.xlsx.md
+*.md.bak
+
+# Excel lock & temp files
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env

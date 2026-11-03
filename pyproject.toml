@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "live-excel-automation"
+version = "1.0.0"
+authors = [
+  { name = "Nishit", email = "nishit@example.com" },
+]
+description = "Instant, in-memory live Excel automation engine for Windows via native COM. Edit open workbooks in RAM with zero file locks."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: Microsoft :: Windows",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Office/Business :: Financial :: Spreadsheet",
+]
+dependencies = [
+    "pywin32>=306",
+    "pandas>=2.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/NishitCodes/LiveExcelAutomation"
+"Bug Tracker" = "https://github.com/NishitCodes/LiveExcelAutomation/issues"
